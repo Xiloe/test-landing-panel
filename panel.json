@@ -1,0 +1,928 @@
+{
+  "version": "1.0",
+  "featureAds": {
+    "visible": "true",
+    "content": [
+      {
+        "id": "CuddleKing",
+        "live": "false",
+        "width": 612,
+        "height": 350,
+        "probability": 1,
+        "header": {
+          "default": "Now available: Xiloe ! yippie",
+          "DEU": "Wiedergeborene Weberin Lillith: Belohnung Event-Pass-St. 20",
+          "ESL": "Lillith Tejedora renacida: Desbloqueo del nivel 20 del PdE",
+          "FRA": "Lillith Tisseuse ressuscitée : au niveau 20 de l'Event Pass",
+          "POL": "Lillith Odrodzona Tkaczka – nagr. 20 poz. Biletu Wydarzenia",
+          "POR": "Lillith Tecelã Renascida: recompensa do nível 20 do Passe",
+          "RUS": "Лилит \"Перерожденная ткачиха\": 20-й уровень пропуска события",
+          "TUR": "Yenilenmiş Dokumacı Lilith: Etkinlik Bileti 20. Seviye Ödülü",
+          "JPN": "Lillith「再生の紡ぎ手」: イベントパスレベル20"
+        },
+        "type": 2,
+        "data": "UIChampion.2281.32595",
+        "data2": "UIChampion.2281.32595",
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/plushiebk.jpeg",
+        "locationId": 122,
+        "desc": {
+          "default": "home"
+        },
+        "hideIfOwned": true,
+        "hideIfItemOwned": [
+          32595
+        ],
+        "showIfOwned": false,
+        "showIfItemOwned": [],
+        "minLevel": 1
+      },
+      {
+        "id": "Redridingmoji",
+        "live": "false",
+        "width": 612,
+        "height": 350,
+        "probability": 1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/redridinmojijson.jpeg",
+        "header": {
+          "default": "Feudal Fables Reward: Red Ridin' Moji"
+        },
+        "desc": {
+          "default": "home"
+        },
+        "data": "UIBattlePass.Item.33258",
+        "data2": "UIBattlePass.Item.33258",
+        "hideIfOwned": true,
+        "hideIfItemOwned": [
+          33258
+        ],
+        "type": 2
+      },
+      {
+        "id": "Gaurdianfuria",
+        "live": "false",
+        "width": 612,
+        "height": 350,
+        "probability": 1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/shrineguardianfuriajsonjpeg.jpeg",
+        "type": 2,
+        "data": "UIBattlePass.Item.33200",
+        "data2": "UIBattlePass.Item.33200",
+        "header": {
+          "default": "Feudal Fables Reward: Shrine Guardian Furia"
+        },
+        "hideIfOwned": true,
+        "hideIfItemOwned": [
+          33200
+        ]
+      },
+      {
+        "id": "Feudalfables",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/feudaljsonjpeg.jpeg",
+        "header": {
+          "default": "Developer Overview"
+        },
+        "desc": {
+          "default": "home"
+        },
+        "type": 1,
+        "data2": "https://www.youtube.com/watch?v=sntM4bRozQ0",
+        "data": "https://www.youtube.com/watch?v=sntM4bRozQ0",
+        "minLevel": 1,
+        "locationId": 129,
+        "showIfOwned": true
+      },
+      {
+        "id": "DiamondChest",
+        "live": "false",
+        "width": 612,
+        "height": 350,
+        "probability": 1,
+        "header": {
+          "default": "Diamond Troves available now!"
+        },
+        "desc": {
+          "default": "home"
+        },
+        "type": 2,
+        "data": "UIStore.Chest.20437",
+        "data2": "UIStore.Chest.20437",
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/DiamondChest-JSON458x262.jpg",
+        "minLevel": 1,
+        "locationId": 130
+      },
+      {
+        "id": "shoreleavechests",
+        "live": "false",
+        "width": 612,
+        "height": 350,
+        "probability": 1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/shorejsonjpeg.jpeg",
+        "header": {
+          "default": "Shore Leave Chest available now!"
+        },
+        "desc": {
+          "default": "home"
+        },
+        "type": 2,
+        "data": "UIStore.Chest.33448",
+        "data2": "UIStore.Chest.33448"
+      },
+      {
+        "id": "dragoncallchest",
+        "live": "false",
+        "width": 612,
+        "height": 350,
+        "probability": 1,
+        "header": {
+          "default": "Dragon Wars Chest available now!"
+        },
+        "desc": {
+          "default": "home"
+        },
+        "type": 2,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/dragonwarsjpeg.jpeg",
+        "data": "UIStore.Chest.33450",
+        "data2": "UIStore.Chest.33450"
+      },
+      {
+        "id": "Ultrastrikers",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/ultrastrikersjsonjpeg.jpeg",
+        "type": 1,
+        "data": "https://store.steampowered.com/app/2950580/Ultra_Strikers/",
+        "data2": "https://store.steampowered.com/app/2950580/Ultra_Strikers/",
+        "header": {
+          "default": "Join us!"
+        },
+        "desc": {
+          "default": "home"
+        }
+      }
+    ]
+  },
+  "featureAdsNPE": {
+    "visible": "true",
+    "content": [
+      {
+        "id": "Welcome",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "header": {
+          "default": "New Player Guide!",
+          "DEU": "Willkommen in der Welt von Paladins",
+          "ESL": "Bienvenidos al Reino",
+          "ESN": "Bienvenidos al Reino",
+          "FRA": "Bienvenue dans le royaume",
+          "JPN": "王国へようこそ！",
+          "POL": "Witaj w Królestwie",
+          "POR": "Bem-vindo ao Reino",
+          "RUS": "Добро пожаловать в мир Paladins!",
+          "TUR": "Bölgeye Hoş Geldin"
+        },
+        "data": "https://www.paladins.com/news/new-returning-player-guide",
+        "data2": "https://www.paladins.com/news/new-returning-player-guide",
+        "type": 1,
+        "desc": {
+          "default": "home"
+        },
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Paladins-JSON-Welcome-458x262.jpg",
+        "minLevel": 1,
+        "maxLevel": 3,
+        "locationId": 100,
+        "hideIfOwned": true
+      },
+      {
+        "id": "RaF",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "header": {
+          "default": "REFER A FRIEND FOR REWARDS!",
+          "DEU": "WIRB FREUNDE FÜR BELOHNUNGEN",
+          "ESL": "RECOMIENDA A UN AMIGO Y GANA RECOMPENSAS",
+          "ESN": "RECOMIENDA A UN AMIGO Y GANA RECOMPENSAS",
+          "FRA": "PARRAINEZ UN AMI POUR AVOIR DES RÉCOMPENSES",
+          "JPN": "友達に紹介して報酬を貰おう！",
+          "POL": "POLEĆ ZNAJOMEGO, ABY OTRZYMAĆ NAGRODY",
+          "POR": "INDIQUE UM AMIGO E RECEBA PRÊMIOS",
+          "RUS": "ПРИГЛАСИТЕ ДРУГА И ПОЛУЧИТЕ НАГРАДЫ",
+          "TUR": "ÖDÜL ALMAK İÇİN BİR ARKADAŞA ÖNER"
+        },
+        "desc": {
+          "default": "home"
+        },
+        "data": "UISocial.Referrals",
+        "data2": "UISocial.Referrals",
+        "type": 2,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Paladins-JSON-RAF-Pip-458x262.jpg",
+        "minLevel": 0,
+        "maxLevel": 9,
+        "locationId": 101,
+        "endDate": "2022-01-21T10:34:36.9157939-05:00"
+      },
+      {
+        "id": "SocialLinking",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "header": {
+          "default": "Want Free Skins? Follow our Social Media Channels! ",
+          "DEU": "Du willst Gratis-Skins? Folge uns auf unseren Social Media-Kanälen!",
+          "ESL": "¿Quieres Aspectos Gratis? ¡Sigue a Paladins En Las Redes Sociales!",
+          "ESN": "¿Quieres Aspectos Gratis? ¡Sigue a Paladins En Las Redes Sociales!",
+          "FRA": "Gagnez des skins en suivant Paladins sur les réseaux sociaux",
+          "JPN": "無料スキンが欲しい？公式ソーシャルメディアのチャンネルをフォローしよう！",
+          "POL": "Obserwuj nas w mediach społ., aby otrzymać darmowe skórki!",
+          "POR": "Aparências Grátis? Siga Paladins Nas Redes Sociais!",
+          "RUS": "Бесплатные скины за подписку в социальных сетях!",
+          "TUR": "Ücretsiz Görünüm Ister Misin? Sosyal Medyada Paladins'i Takip Et!"
+        },
+        "data": "https://www.youtube.com/watch?v=yrR7QIZnUUc&feature=youtu.be",
+        "data2": "https://www.youtube.com/watch?v=yrR7QIZnUUc&feature=youtu.be",
+        "type": 3,
+        "desc": {
+          "default": "home"
+        },
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/SocialLinking-458x262.jpg",
+        "minLevel": 0,
+        "maxLevel": 9,
+        "locationId": 102,
+        "endDate": "2022-01-21T10:34:36.918786-05:00"
+      },
+      {
+        "id": "GameModes",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/JSON-Home-NPE-458x262.jpg",
+        "type": 3,
+        "data": "https://www.youtube.com/watch?v=T7hiN8OT_jY&feature=youtu.be",
+        "data2": "https://www.youtube.com/watch?v=T7hiN8OT_jY&feature=youtu.be",
+        "desc": {
+          "default": "home"
+        },
+        "minLevel": 0,
+        "maxLevel": 9,
+        "header": {
+          "default": "Learn about the game modes of Paladins",
+          "DEU": "Erfahre mehr über die Spielmodi von Paladins",
+          "ESL": "Descubre los modos de juego de Paladins",
+          "ESN": "Descubre los modos de juego de Paladins",
+          "FRA": "Découvrez les modes de jeu de Paladins.",
+          "POL": "Poznaj tryby rozgrywki w Paladins",
+          "POR": "Aprenda os modos de jogo de Paladins",
+          "RUS": "Узнайте об игровых режимах Paladins",
+          "TUR": "Paladins'in oyun modlarını öğren",
+          "JPN": "Paladinsのゲームモードを学ぼう"
+        },
+        "locationId": 103,
+        "endDate": "2022-01-21T10:34:36.9217773-05:00"
+      },
+      {
+        "id": "DeckBuilding",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Paladins-NPE-ChampTalents-JSON-Home-458x262.jpg",
+        "type": 3,
+        "desc": {
+          "default": "home"
+        },
+        "header": {
+          "default": "Intro to Deck Building: Watch Now",
+          "FRA": "Découvrez comment construire un deck.",
+          "DEU": "Alles über Decks: Jetzt anschauen",
+          "ESL": "Introducción a la creación de mazos: Ver ahora",
+          "ESN": "Introducción a la creación de mazos: Ver ahora",
+          "POL": "Budowanie talii: obejrzyj film",
+          "POR": "Introdução à montagem de baralho: assista",
+          "RUS": "Введение в создание колод: уже доступно!",
+          "TUR": "Deste Oluşturma Tanıtımı: Şimdi İzle",
+          "JPN": "デッキ編成の紹介: 今すぐ視聴"
+        },
+        "data": "https://www.youtube.com/watch?v=QOiwzvMg-ys&feature=youtu.be",
+        "data2": "https://www.youtube.com/watch?v=QOiwzvMg-ys&feature=youtu.be",
+        "minLevel": 0,
+        "maxLevel": 9,
+        "locationId": 104,
+        "endDate": "2022-01-21T10:34:36.9277621-05:00"
+      },
+      {
+        "id": "Talents",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Paladins-JSON-NPE-ChampTalents-JSON-Home-458x262.jpg",
+        "type": 3,
+        "data": "https://www.youtube.com/watch?v=4_XVq8sJuns&feature=youtu.be",
+        "data2": "https://www.youtube.com/watch?v=4_XVq8sJuns&feature=youtu.be",
+        "header": {
+          "default": "Intro to Champion Talents",
+          "DEU": "Alles über Champion-Talente",
+          "ESL": "Introducción a los talentos de los campeones",
+          "ESN": "Introducción a los talentos de los campeones",
+          "FRA": "Découvrez les talents des champions.",
+          "POL": "Słowo o talentach czempionów",
+          "POR": "Introdução aos talentos dos Campeões",
+          "RUS": "Введение в таланты чемпионов",
+          "TUR": "Şampiyon Kabiliyetleri Tanıtımı",
+          "JPN": "チャンピオンのタレント紹介"
+        },
+        "minLevel": 0,
+        "maxLevel": 9,
+        "locationId": 105,
+        "desc": {
+          "default": "home"
+        },
+        "endDate": "2022-01-21T10:34:36.9297564-05:00"
+      },
+      {
+        "id": "Roles",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/JSON-Home-NPE-ChampRoles-458x262.jpg",
+        "type": 3,
+        "data": "https://www.youtube.com/watch?v=Q6ZDW9Yno5k&feature=youtu.be",
+        "data2": "https://www.youtube.com/watch?v=Q6ZDW9Yno5k&feature=youtu.be",
+        "header": {
+          "default": "Learn about the Champions",
+          "DEU": "Erfahre mehr über die Champions von Paladins",
+          "ESL": "Conoce mejor a los campeones",
+          "ESN": "Conoce mejor a los campeones",
+          "FRA": "Découvrez les champions",
+          "POL": "Poznaj naszych czempionów",
+          "POR": "Aprenda sobre os Campeões",
+          "RUS": "Узнайте о чемпионах",
+          "TUR": "Şampiyonları öğren",
+          "JPN": "チャンピオンについて学ぼう"
+        },
+        "minLevel": 0,
+        "maxLevel": 9,
+        "locationId": 106,
+        "desc": {
+          "default": "home"
+        },
+        "endDate": "2022-01-21T10:34:36.9317521-05:00"
+      },
+      {
+        "id": "ItemShop",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "type": 3,
+        "data": "https://www.youtube.com/watch?v=ZIAiUP_3p50&feature=youtu.be",
+        "data2": "https://www.youtube.com/watch?v=ZIAiUP_3p50&feature=youtu.be",
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Paladins-JSON-NPE-ItemShop-458x262.jpg",
+        "desc": {
+          "default": "home"
+        },
+        "header": {
+          "default": "Learn the Basics of the Item Shop",
+          "DEU": "Lerne die Grundlagen des Item-Shops",
+          "ESL": "Aprende lo básico de la tienda de objetos",
+          "ESN": "Aprende lo básico de la tienda de objetos",
+          "FRA": "Découvrez les rudiments de la boutique d'objets",
+          "INT": "Learn the Basics of the Item Shop",
+          "POL": "Poznaj podstawowe zasady Sklepu z przedmiotami",
+          "POR": "Aprenda o básico da Loja de Itens",
+          "RUS": "Узнайте о магазине предметов",
+          "TUR": "Eşya Mağazası'nın Temel Özelliklerini Öğren",
+          "JPN": "アイテムショップの基本を学ぼう！"
+        },
+        "minLevel": 0,
+        "maxLevel": 9,
+        "locationId": 107,
+        "endDate": "2022-01-21T10:34:36.9337455-05:00"
+      },
+      {
+        "id": "TrialsTut",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "type": 3,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Paladins-map-Trials.jpg",
+        "desc": {
+          "default": "home"
+        },
+        "minLevel": 8,
+        "maxLevel": 15,
+        "locationId": 108,
+        "data": "https://www.youtube.com/watch?v=6CTPKPDZ3hw&feature=youtu.be",
+        "data2": "https://www.youtube.com/watch?v=6CTPKPDZ3hw&feature=youtu.be",
+        "header": {
+          "default": "Learn About Trials of the Realm",
+          "DEU": "Infos zu den Heldenprüfungen",
+          "ESL": "Descubre todo sobre las pruebas del Reino",
+          "ESN": "Descubre todo sobre las pruebas del Reino",
+          "FRA": "Infos sur les Épreuves du Royaume",
+          "INT": "Learn About Trials of the Realm",
+          "POL": "Poznaj Próby w Królestwie",
+          "POR": "As Provas do Reino: aprenda",
+          "RUS": "Узнайте об Испытаниях Королевства",
+          "TUR": "Diyar'ın İmtihanları Hakkında Bilgi Al",
+          "JPN": "Realmのトライアルについての詳細を確認"
+        },
+        "endDate": "2022-01-21T10:34:36.9357405-05:00"
+      },
+      {
+        "id": "LTMtut",
+        "live": "false",
+        "width": 458,
+        "height": 262,
+        "probability": 1,
+        "minLevel": 8,
+        "maxLevel": 15,
+        "locationId": 110,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Paladins-LimitedTimeModesArt-BH.jpg",
+        "type": 3,
+        "desc": {
+          "default": "home"
+        },
+        "header": {
+          "default": "Learn more about Limited Time Modes",
+          "INT": "Learn more about Limited Time Modes",
+          "DEU": "Erfahre mehr zu den zeitlich limitierten Event-Spielmodi",
+          "ESL": "Descubre más sobre los modos de tiempo limitado",
+          "ESN": "Descubre más sobre los modos de tiempo limitado",
+          "FRA": "Plus d'infos sur les modes temporaires",
+          "POL": "Dowiedz się więcej o trybach z limitowanym czasem",
+          "POR": "Conheça os novos modos por tempo limitado!",
+          "RUS": "Узнайте о новых лимитированных режимах",
+          "TUR": "Sınırlı Süreli Modlar hakkında daha fazla bilgi edin!",
+          "JPN": "期間限定モードの詳細を確認"
+        },
+        "data": "https://www.youtube.com/watch?v=iJolJAdj0-A&feature=youtu.be",
+        "data2": "https://www.youtube.com/watch?v=iJolJAdj0-A&feature=youtu.be",
+        "endDate": "2022-01-21T10:34:36.9397295-05:00"
+      }
+    ]
+  },
+  "hiddenDLCFeatures": {
+    "visible": "true",
+    "content": [
+      {
+        "id": "HDLCAnniversary",
+        "live": "false",
+        "width": 1080,
+        "height": 470,
+        "probability": 1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/PaladinsAnniversaryEventPromo1080x470.jpg",
+        "type": 0,
+        "locationId": 151,
+        "header": {
+          "default": "Anniversary"
+        },
+        "desc": {
+          "default": "hdlc"
+        }
+      },
+      {
+        "id": "DailyDeal",
+        "live": "true",
+        "width": 1080,
+        "height": 470,
+        "probability": 1,
+        "header": {
+          "default": "DailyDeal"
+        },
+        "type": 9,
+        "data": "UIChampion.2533.25505",
+        "data2": "UIChampion.2533.25505",
+        "desc": {
+          "default": "HDLC"
+        },
+        "minLevel": 0,
+        "maxLevel": 9999,
+        "locationId": 152,
+        "showIfOwned": true,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/PaladinsAnniversaryEventPromo.jpg"
+      }
+    ]
+  },
+  "storeHiddenDLC": {
+    "visible": "true",
+    "content": [
+      {
+        "id": "SSStar0817a",
+        "width": 450,
+        "height": 450,
+        "probability": -1,
+        "data": "50280",
+        "data2": "50280",
+        "type": 8,
+        "header": {
+          "default": "Star Pack",
+          "DEU": "Sternen-Paket",
+          "ESL": "Paquete estelar",
+          "ESN": "Paquete estelar",
+          "FRA": "Pack Étoile",
+          "POL": "Gwiezdny pakiet",
+          "POR": "Pacote das Estrelas",
+          "RUS": "Звездный набор",
+          "TUR": "Yıldız Paketi",
+          "JPN": "スターパック"
+        },
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Store-SquareSide-StarPack-450x450.jpg",
+        "hideIfItemOwned": [
+          13272
+        ],
+        "hideIfOwned": true,
+        "desc": {
+          "default": "SideDLC"
+        },
+        "showIfItemOwned": [],
+        "locationId": 200,
+        "showPlayerId": 0
+      },
+      {
+        "id": "SSGoddess0817a",
+        "width": 450,
+        "height": 450,
+        "probability": -1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Store-SquareSide-GoddessPack-450x450-BH.jpg",
+        "data": "50286",
+        "data2": "50286",
+        "type": 8,
+        "hideIfItemOwned": [
+          19486
+        ],
+        "hideIfOwned": true,
+        "header": {
+          "default": "Goddess Pack",
+          "DEU": "Göttinnen-Paket",
+          "ESL": "Paquete diosa",
+          "ESN": "Paquete diosa",
+          "FRA": "Pack Déesse",
+          "POL": "Pakiet Bogini",
+          "POR": "Pacote Deusa",
+          "RUS": "Набор богини",
+          "TUR": "Tanrıça Paketi",
+          "INT": null,
+          "JPN": "女神パック"
+        },
+        "desc": {
+          "default": "SideDLC"
+        },
+        "minLevel": 0,
+        "maxLevel": 5000,
+        "showIfItemOwned": [
+          13272
+        ],
+        "showIfOwned": false,
+        "locationId": 201,
+        "showPlayerId": 0
+      },
+      {
+        "id": "SSNightmare0815a",
+        "width": 450,
+        "height": 450,
+        "probability": -1,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Store-SquareSide-NightmarePack-450x450.jpg",
+        "data": "50297",
+        "data2": "50297",
+        "type": 8,
+        "hideIfItemOwned": [
+          19751
+        ],
+        "hideIfOwned": true,
+        "header": {
+          "default": "Nightmare Pack",
+          "DEU": "Albtraum-Paket",
+          "ESL": "Paquete pesadilla",
+          "ESN": "Paquete pesadilla",
+          "FRA": "Pack Cauchemar",
+          "POL": "Koszmarny pakiet",
+          "POR": "Pacote Pesadelo",
+          "RUS": "Набор кошмаров",
+          "TUR": "Kabus Paketi",
+          "JPN": "ナイトメアパック"
+        },
+        "desc": {
+          "default": "SideDLC"
+        },
+        "showIfItemOwned": [
+          19486
+        ],
+        "minLevel": 0,
+        "maxLevel": 5000,
+        "showIfOwned": false,
+        "locationId": 202
+      },
+      {
+        "id": "SSFrostPack0817b",
+        "width": 450,
+        "height": 450,
+        "probability": -1,
+        "data": "54842",
+        "data2": "54842",
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Store-SquareSide-FrostPack-450x4503xValue.jpg",
+        "header": {
+          "default": "Frost Pack",
+          "DEU": "Frost-Paket",
+          "ESL": "Paquete helado",
+          "ESN": "Paquete helado",
+          "POL": "Lodowy pakiet",
+          "POR": "Pacote Congelado",
+          "RUS": "Ледяной набор",
+          "TUR": "Donuk Paket",
+          "JPN": "フロストパック",
+          "FRA": "Pack Givre"
+        },
+        "type": 8,
+        "desc": {
+          "default": "SideDLC"
+        },
+        "hideIfItemOwned": [
+          18568
+        ],
+        "hideIfOwned": true,
+        "showIfItemOwned": [
+          23921
+        ],
+        "showIfOwned": false,
+        "locationId": 203
+      },
+      {
+        "id": "SSInterstellar0818a",
+        "width": 450,
+        "height": 450,
+        "probability": 1,
+        "type": 2,
+        "data": "UIStore.Bundle.31109",
+        "data2": "UIStore.Bundle.31109",
+        "header": {
+          "default": "Now Available: Interstellar Stallion DLC",
+          "DEU": "Jetzt erhältlich",
+          "FRA": "Disponible dès maintenant",
+          "RUS": "Уже доступно",
+          "POL": "Już dostępne",
+          "TUR": "Şimdi Mevcut",
+          "POR": "Disponível agora",
+          "ESL": "Disponible Ahora"
+        },
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Paladins-JSON-StoreSquare-InterstellarStallion-DLC-450x450.jpg",
+        "locationId": 204,
+        "hideIfOwned": true,
+        "hideIfItemOwned": [
+          31109
+        ],
+        "desc": {
+          "default": "SideDLC"
+        }
+      },
+      {
+        "id": "SSSkyWhale1011",
+        "width": 450,
+        "height": 450,
+        "probability": 1,
+        "header": {
+          "default": "Sky Whale Pack",
+          "INT": "Sky Whale Pack",
+          "DEU": "Himmelswal-Paket",
+          "ESL": "Paquete Ballena celeste",
+          "ESN": "Paquete Ballena celeste",
+          "FRA": "Pack Baleine céleste",
+          "JPN": "天空のクジラパック",
+          "POL": "Pakiet Podniebny wieloryb",
+          "POR": "Pacote Baleia Voadora",
+          "RUS": "Набор \"Небесный кит\"",
+          "TUR": "Korsan Balina Paketi"
+        },
+        "desc": {
+          "default": "SideDLC"
+        },
+        "type": 2,
+        "data": "UIStore.Bundle.27479",
+        "data2": "UIStore.Bundle.27479",
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Sky-Whale-Pack.jpg",
+        "hideIfOwned": true,
+        "hideIfItemOwned": [
+          27479
+        ],
+        "locationId": 204,
+        "maxLevel": 5000,
+        "startDate": null,
+        "endDate": null
+      },
+      {
+        "id": "SSFanForge0817",
+        "width": 450,
+        "height": 450,
+        "probability": -1,
+        "type": 1,
+        "data": "https://www.forfansbyfans.com/fandom/paladins.html",
+        "data2": "https://www.forfansbyfans.com/fandom/paladins.html",
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/Paladins-Fanforge-450.jpg",
+        "locationId": 205,
+        "desc": {
+          "default": "SideDLC"
+        },
+        "header": {
+          "default": "",
+          "INT": null,
+          "DEU": null,
+          "ESL": null,
+          "ESN": null,
+          "FRA": null,
+          "JPN": null,
+          "POL": null,
+          "POR": null,
+          "RUS": null,
+          "TUR": null
+        }
+      }
+    ]
+  },
+  "storeDiscounts": {
+    "active": "false",
+    "content": [
+      {
+        "id": "200",
+        "packid": 16384,
+        "discount": 0
+      },
+      {
+        "id": "400a",
+        "packid": 16385,
+        "discount": 10
+      },
+      {
+        "id": "800a",
+        "packid": 16382,
+        "discount": 10
+      },
+      {
+        "id": "1500a",
+        "packid": 16386,
+        "discount": 15
+      },
+      {
+        "id": "2500a",
+        "packid": 16387,
+        "discount": 15
+      },
+      {
+        "id": "3500a",
+        "packid": 16388,
+        "discount": 20
+      },
+      {
+        "id": "8000a",
+        "packid": 16389,
+        "discount": 20
+      },
+      {
+        "id": "SeaosnPass",
+        "packid": 48861,
+        "discount": 0
+      },
+      {
+        "id": "ChampionPack",
+        "packid": 47705,
+        "discount": 0
+      },
+      {
+        "id": "DDE",
+        "packid": 55969,
+        "discount": 0
+      }
+    ]
+  },
+  "homeScreenFeatures": {
+    "active": "true",
+    "content": [
+      {
+        "id": "ShrineGuardian",
+        "chanceToShow": 100,
+        "rotationOffset": 0,
+        "featureType": "battlepass",
+        "botid": 2491,
+        "locationId": 303,
+        "skinid": 33200,
+        "featuredItem": 33200,
+        "weaponid": 33201,
+        "lobbyCam": 1,
+        "showIfItemOwned": [],
+        "showIfOwned": false,
+        "hideIfItemOwned": [
+          33200
+        ],
+        "hideIfOwned": true
+      },
+      {
+        "id": "Redridinmoji",
+        "chanceToShow": 100,
+        "rotationOffset": 0,
+        "featureType": "battlepass",
+        "skinid": 33258,
+        "featuredItem": 33258,
+        "weaponid": 33259,
+        "lobbyCam": 1,
+        "botid": 2481,
+        "locationId": 304,
+        "endDate": null,
+        "hideIfItemOwned": [
+          33258
+        ],
+        "hideIfOwned": true
+      },
+      {
+        "id": "SchoolMaeve",
+        "chanceToShow": 100,
+        "rotationOffset": 0,
+        "featureType": "chest",
+        "featuredItem": 33087,
+        "skinid": 27887,
+        "weaponid": 27888,
+        "hideIfOwned": true,
+        "hideIfItemOwned": [
+          27887
+        ],
+        "botid": 2338
+      },
+      {
+        "id": "UltimatumFernando",
+        "chanceToShow": 100,
+        "rotationOffset": 0,
+        "featureType": "none",
+        "botid": 2071,
+        "skinid": 32997,
+        "weaponid": 32998,
+        "hideIfOwned": true,
+        "hideIfItemOwned": [
+          32997
+        ],
+        "locationId": 310
+      }
+    ]
+  },
+  "fullscreenSplash": {
+    "visible": "true",
+    "content": [
+      {
+        "id": "FEUDALFABLESEP",
+        "width": 1920,
+        "height": 1080,
+        "probability": 100,
+        "header": {
+          "default": "Feudal Fables Event Pass!",
+          "DEU": "NEUER EVENT-PASS: GEHEIMNIS DER SANDE 2",
+          "ESL": "NUEVO PASE DE EVENTOS: ARENAS MITOLÓGICAS 2",
+          "FRA": "NUEVO PASE DE EVENTOS: ARENAS MITOLÓGICAS 2",
+          "POL": "BILET WYDARZENIA: PIASKI MITU 2",
+          "POR": "NOVO PASSE DE EVENTO: AREIAS DO MITO 2",
+          "RUS": "НОВЫЙ ПРОПУСК СОБЫТИЯ: \"МИФЫ ПУСТЫНЬ 2\"",
+          "TUR": "YENİ ETKİNLİK BİLETİ: EFSANE KUMLAR 2",
+          "JPN": "新イベント: 神話の砂2"
+        },
+        "desc": {
+          "default": "pop"
+        },
+        "type": 2,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/ffpopupjson.jpeg",
+        "locationId": 401,
+        "data": "UIBattlePass.Item.33200",
+        "data2": "UIBattlePass.Item.33200",
+        "minLevel": 1,
+        "endDate": null,
+        "hideIfItemOwned": [],
+        "hideIfOwned": true
+      },
+      {
+        "id": "TRIALSEP5",
+        "width": 1920,
+        "height": 1080,
+        "probability": 1,
+        "desc": {
+          "default": "pop"
+        },
+        "header": {
+          "default": "Trials of the Realm returns!"
+        },
+        "type": 1,
+        "locationId": 402,
+        "imageUrl": "http://cdn2hi-rezgame.akamaized.net/LandingPanel/Paladins/CrossPlayDev/images/TrialsPopupJSON.jpg",
+        "data": "https://paladins.com/news/wild-hoard-update-notes",
+        "data2": "https://paladins.com/news/wild-hoard-update-notes"
+      }
+    ]
+  }
+}
